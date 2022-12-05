@@ -13,5 +13,3 @@ if func(num1, num2):
 else:
     print('не делится')
 
-
-
