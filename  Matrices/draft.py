@@ -1,16 +1,20 @@
-n = 5
-a = [[19, 21, 33, 78, 99],
-     [41, 53, 66, 98, 76],
-     [79, 80, 90, 60, 20],
-     [33, 11, 45, 67, 90],
-     [45, 67, 12, 98, 23]]
+n = int(input())
+matrix = [[int(_) for _ in input().split()] for _ in range(n)]
+numbers = [int(_) for _ in range(1, n ** 2 + 1)]
+numbers_of_matrix = []
+numbers_of_matrix.sort()
+result = 'YES'
 
-maximum = -1
-minimum = 100
+for i in range(len(numbers)):
+    for j in range(n):
+        if numbers[i] in matrix[j]:
+            numbers_of_matrix.append(numbers[i])
+            break
 
-for i in range(n):
-    if a[i][i] > maximum:
-        maximum = a[i][i]
-    if a[i][n - i - 1] < minimum:
-        minimum = a[i][n - i - 1]
-print(minimum + maximum)
+if numbers != numbers_of_matrix:
+    result = 'NO'
+else:
+    result = 'YES'
+print(result)
+
+
