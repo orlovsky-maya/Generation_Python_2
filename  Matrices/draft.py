@@ -1,4 +1,4 @@
-n = int(input())
-matrix_1 = [[int(i) for i in input().split()] for i in range(n)]
-matrix_2 = [[matrix_1[r][c] for r in range(n)] for c in range(n)]
-print(matrix_2)
+a = (3, 4, 5)
+for i in range(3):
+    a[i] += 3
+print(sum(a))
