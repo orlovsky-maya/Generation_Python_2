@@ -1,0 +1,11 @@
+n, m, k, x, y, z, t, a = [int(input()) for i in range(8)]
+nm = n + m - t - x
+mk = m + k - t - y
+nk = n + k - t - z
+n = n - nm - t - nk
+m = m - nm - t - mk
+k = k - mk - t - nk
+one_book = n + m + k
+two_book = nm + mk + nk
+no_book = a - (two_book + one_book + t)
+print(one_book, two_book, no_book, sep='\n')
