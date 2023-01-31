@@ -4,10 +4,12 @@ student_grades = [86, 98, 89, 92, 45, 67, 89, 90, 100, 98, 10, 96, 93]
 
 
 
-result = [{id: info} for id, info in dict(zip(student_ids, [{key: value} for key, value in dict(zip(student_names, student_grades)).items()])).items()]
-print(result)
+# result = [{id: info} for id, info in dict(zip(student_ids, [{key: value} for key, value in dict(zip(student_names, student_grades)).items()])).items()]
+# print(result)
 
 result = [{x: {y: z}} for x, y, z in zip(student_ids, student_names, student_grades)]
+print(result)
+
 
 
 
