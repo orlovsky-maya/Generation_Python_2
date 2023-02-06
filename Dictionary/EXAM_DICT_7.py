@@ -9,3 +9,19 @@ def merge(values):  # values - это список словарей
 
 result = merge([{'a': 1, 'b': 2}, {'b': 10, 'c': 100}, {'a': 1, 'b': 17, 'c': 50}, {'a': 5, 'd': 777}])
 print(result)
+
+
+def merge(values):
+    res = {}
+    for d in values:
+        for k, v in d.items():
+            res.setdefault(k, set()).add(v)
+    return res
+
+
+def merge(values):
+    result = {}
+    for i in values:
+        for key, value in i.items():
+            result[key] = result.get(key, {value}) | {value}
+    return result

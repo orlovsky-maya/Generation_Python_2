@@ -11,3 +11,6 @@ emails_list = [emails_list[i][j] for i in range(len(emails_list)) for j in range
 emails_list = sorted(emails_list)
 
 print(*emails_list, sep='\n')
+
+
+print(*sorted([i+'@'+k for k, v in emails.items() for i in v]), sep = '\n')
