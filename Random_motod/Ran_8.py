@@ -14,3 +14,7 @@ for i in bilets:
 import random
 for _ in range(100):
     print(random.randint(1000000, 9999999))
+
+from random import sample as r
+
+print(*r(range(int(1e6), int(1e7)), 100), sep='\n')
