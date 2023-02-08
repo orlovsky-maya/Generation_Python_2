@@ -20,26 +20,25 @@ for i in range(n):
     print(generate_passwords(m))
 
 
-import random
-import string
 
+
+
+from string import *
+from random import sample
+
+LETTER = ''.join((set(ascii_letters) | set(digits)) - set('lI1oO0'))
 
 def generate_password(length):
-    symbols = string.ascii_letters + string.digits
-    for s in 'lI1oO0':
-        if s in symbols:
-            symbols = symbols.replace(s, '')
-    return ''.join(random.sample(symbols, length))
+    return ''.join(sample(LETTER, length))
 
-
-def generate_passwords(length):
-    return generate_password(length)
-
+def generate_passwords(count, length):
+    return [generate_password(length) for _ in range(count)]
 
 n, m = int(input()), int(input())
+print(*generate_passwords(n, m), sep='\n')
 
-for i in range(n):
-    print(generate_passwords(m))
+
+
 
 
 from string import ascii_letters, digits
