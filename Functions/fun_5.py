@@ -4,6 +4,7 @@ def greet(name, *args):
     else:
         return f'Hello, {name} and {" and ".join(args)}!'
 
+
 print(greet('Timur'))
 print(greet('Timur', 'Roman'))
 print(greet('Timur', 'Roman', 'Ruslan'))
