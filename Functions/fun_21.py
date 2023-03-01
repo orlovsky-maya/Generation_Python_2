@@ -24,7 +24,8 @@ data = [['Tokyo', 35676000, 'primary'],
 filter_result = list(filter(lambda city: city[1] > 10000000 and city[2] == 'primary', data))
 map_result = list(map(lambda city: city[0], filter_result))
 map_result = sorted(map_result)
-reduce_result = reduce(lambda name_1, name_2: name_1 + ', ' + name_2, map_result, 'Cities:')
+reduce_result = reduce(lambda name_1, name_2: name_1 + name_2 + ', ', map_result, 'Cities: ')
 
 
-print(reduce_result)
+print(reduce_result[:-2])
+print(reduce_result.rstrip(', '))
