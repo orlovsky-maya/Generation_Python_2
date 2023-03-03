@@ -11,5 +11,15 @@ mixed_list = ['tuesday', 'abroad', 'abuse', 'beside', 'monday', 'abate', 'access
 result_list = max(filter(lambda point: type(point) == int, mixed_list))
 print(result_list)
 
-print(max(mixed_list, key=lambda x: (isinstance(x, int), x)))
 
+def f(e):
+    if isinstance(e, list):
+        return 0
+    if isinstance(e, str):
+        return 1
+    if isinstance(e, int):
+        return 2
+    return -1
+
+
+print(max(mixed_list, key=lambda x: (f(x), x)))
