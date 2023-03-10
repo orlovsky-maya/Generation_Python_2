@@ -1,21 +1,22 @@
-# password = input()
-# conditions = [lambda x: x.isdigit(), lambda x: x.islower(), lambda x: x.isupper()]
-#
-#
-# def check_password(password, conditions):
-#     if len(password) < 7:
-#         return False
-#     else:
-#         for cond in conditions:
-#             if any(map(cond, password)) == 0:
-#                 return False
-#         return True
-#
-#
-# if check_password(password, conditions):
-#     print('YES')
-# else:
-#     print('NO')
+password = input()
+
+conditions = [lambda x: x.isdigit(), lambda x: x.islower(), lambda x: x.isupper()]
+
+
+def check_password(password, conditions):
+    if len(password) < 7:
+        return False
+    else:
+        for cond in conditions:
+            if any(map(cond, password)) == 0:
+                return False
+        return True
+
+
+if check_password(password, conditions):
+    print('YES')
+else:
+    print('NO')
 
 
 import string as s
