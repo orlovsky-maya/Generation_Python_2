@@ -1,7 +1,12 @@
 with open('population.txt') as file:
-    l_str = list(map(str.rstrip, file.readlines()))
-    l_list = dict(list(map(lambda x: x.split('\t'), l_str)))
-    result = list(filter(lambda item in point.items(): item[0].startswith('G') and int(item[1]) > 500000, l_list))
-    print(l_str)
-    print(l_list)
-    # print(result)
+    l_list = list(map(lambda x: x.split('\t'), map(str.rstrip, file.readlines())))
+    result = list(filter(lambda point: point[0].startswith('G') and int(point[1]) > 500000, l_list))
+    for elem in result:
+        print(elem[0])
+
+
+with open('population.txt') as f:
+    for line in f:
+        n, p = line.split('\t')
+        if n.startswith('G') and int(p) > 500000:
+            print(n)
