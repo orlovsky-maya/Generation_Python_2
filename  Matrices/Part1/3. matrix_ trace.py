@@ -8,8 +8,9 @@ for i in range(n):
     summa += matrix[i][i]
 print(summa)
 
+#reference solution
 
-res = 0
-for i in range(int(input())):
-    res += int(input().split()[i])
-print(res)
+# res = 0
+# for i in range(int(input())):
+#     res += int(input().split()[i])
+# print(res)
