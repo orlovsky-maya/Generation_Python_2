@@ -9,11 +9,11 @@ for i in range(n):
 for row in matrix:
     print(*row)
 
-
-n = int(input())
-
-matrix = [[int(item) for item in input().split()] for _ in range(n)]
-matrix.reverse()
-
-for row in matrix:
-    print(*row)
+# #  reference solution
+# n = int(input())
+#
+# matrix = [[int(item) for item in input().split()] for _ in range(n)]
+# matrix.reverse()
+#
+# for row in matrix:
+#     print(*row)

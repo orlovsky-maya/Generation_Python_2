@@ -12,7 +12,7 @@ for r in range(8):
 for row in matrix:
     print(*row)
 
-
+#  reference solution
 x, y = input()
 n = 8
 board = [['.'] * n for _ in range(n)]
