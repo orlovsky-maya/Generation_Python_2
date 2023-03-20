@@ -11,7 +11,7 @@ for i in range(n):
 for row in matrix:
     print(*row)
 
-
+#  reference solution
 n, m = [int(i) for i in input().split()]
 board = [['.'] * m for _ in range(n)]
 

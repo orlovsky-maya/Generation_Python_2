@@ -37,6 +37,8 @@ for i in range(n):
         print(str(matrix[i][j]).ljust(3), end='')
     print()
 
+
+#  reference solution
 n, m = [int(i) for i in input().split()]
 
 matrix = [[0] * m for _ in range(n)]

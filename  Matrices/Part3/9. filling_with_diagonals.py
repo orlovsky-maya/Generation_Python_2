@@ -12,6 +12,8 @@ for i in range(n):
         print(str(matrix[i][j]).ljust(3), end='')
     print()
 
+
+#  reference solution
 # n, m = map(int, input().split())
 # mt = [[''] * m for i in '1'* n]
 # d = 1
