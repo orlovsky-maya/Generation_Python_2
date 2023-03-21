@@ -5,4 +5,5 @@ if num1.isdisjoint(num2):
 else:
     print('YES')
 
+#  reference solution
 print(("YES", "NO")[set(input()).isdisjoint(input())])
