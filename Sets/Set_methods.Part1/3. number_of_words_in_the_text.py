@@ -6,7 +6,7 @@ for c in symbols:
 text_set = set(text.split())
 print(len(text_set))
 
-
+#  reference solution
 words = [word.lower().strip('.,;:-?!') for word in input().split()]
 
 print(len(set(words)))

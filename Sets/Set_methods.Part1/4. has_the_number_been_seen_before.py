@@ -10,7 +10,7 @@ for c in numbers:
         print('YES')
 
 
-
+#  reference solution
 numbers = [int(i) for i in input().split()]
 myset = set()
 
