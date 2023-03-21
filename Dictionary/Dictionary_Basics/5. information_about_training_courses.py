@@ -3,7 +3,7 @@ courses = {'CS101': [3004, 'Хайнс', '8:00'], 'CS102': [4501, 'Альвар�
 num = input()
 print('{0}: {1}, {2}, {3}'.format(num, courses[num][0], courses[num][1], courses[num][2]))
 
-
+#  reference solution
 courses = {
     "CS101": (3004, 'Хайнс', '8:00'),
     "CS102": (4501, 'Альварадо', '9:00'),
