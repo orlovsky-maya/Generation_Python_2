@@ -8,7 +8,7 @@ if len(only_one) > 0:
 else:
     print('NO')
 
-
+#  reference solution
 m, n = int(input()), int(input())
 math = {input() for _ in range(m)}
 inf = {input() for _ in range(n)}

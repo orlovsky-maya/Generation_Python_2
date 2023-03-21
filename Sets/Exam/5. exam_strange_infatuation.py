@@ -7,7 +7,7 @@ else:
     print('BAD DAY')
 
 
-
+#  reference solution
 set1 = {int(i) for i in input().split()}
 set2 = {int(i) for i in input().split()}
 
