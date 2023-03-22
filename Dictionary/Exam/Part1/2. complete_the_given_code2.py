@@ -12,5 +12,5 @@ emails_list = sorted(emails_list)
 
 print(*emails_list, sep='\n')
 
-
+#  reference solution
 print(*sorted([i+'@'+k for k, v in emails.items() for i in v]), sep = '\n')
