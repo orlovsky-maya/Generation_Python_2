@@ -21,7 +21,7 @@ for j in range(2):
     circle(50)
     X += 100
 
-
+#  reference solution
 import turtle as t
 
 pos = [[0, 0],[-62, 0],[62, 0],[-31,-40],[31,-40]]
