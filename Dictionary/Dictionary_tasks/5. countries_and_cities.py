@@ -10,7 +10,7 @@ m = int(input())
 for _ in range(m):
     print(mydict[input()])
 
-
+#  reference solution
 d = {}
 for _ in range(int(input())):
     country, *cities = input().split()
