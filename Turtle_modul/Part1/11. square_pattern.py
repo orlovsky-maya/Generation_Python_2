@@ -1,17 +1,19 @@
-# import turtle
-#
-#
-# def square(side):
-#     for _ in range(4):
-#         turtle.backward(side)
-#         turtle.right(90)
-#
-#
-# s = 300
-# for _ in range(30):
-#     square(s)
-#     s -= 10
+import turtle
 
+
+def square(side):
+    for _ in range(4):
+        turtle.backward(side)
+        turtle.right(90)
+
+
+s = 300
+for _ in range(30):
+    square(s)
+    s -= 10
+
+
+#  reference solution
 import turtle
 def squares(side, n, step):
     for _ in range(n):
