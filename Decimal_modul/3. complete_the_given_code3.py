@@ -10,7 +10,7 @@ if len(digits) > abs(exp):
 else:
     print(max(digits))
 
-
+#  reference solution
 from decimal import *
 num = Decimal(input())
 cyphers = num.as_tuple().digits
