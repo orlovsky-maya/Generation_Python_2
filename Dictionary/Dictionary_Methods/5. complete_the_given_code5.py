@@ -26,7 +26,7 @@ for i_own in range(len(list_names_owners)):
 print(result)
 
 
-
+#  reference solution
 pets = [('Hatiko', 'Parker', 'Wilson', 50),
         ('Rusty', 'Josh', 'King', 25),
         ('Fido', 'John', 'Smith', 28),
@@ -48,7 +48,7 @@ for pet in pets:
     result.setdefault(pet[1:], []).append(pet[0])
 print(result)
 
-
+#  reference solution
 pets = [('Hatiko', 'Parker', 'Wilson', 50),
         ('Rusty', 'Josh', 'King', 25),
         ('Fido', 'John', 'Smith', 28),
