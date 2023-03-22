@@ -1,4 +1,6 @@
 import random
+
+
 def generate_ip():
     ip_adress = []
     for i in range(4):
@@ -8,14 +10,14 @@ def generate_ip():
 
 print(generate_ip())
 
+#  reference solution
 from random import choice
 def generate_ip():
     s = range(0, 256)
     return f"{choice(s)}.{choice(s)}.{choice(s)}.{choice(s)}"
 
 
-
-
+#  reference solution
 from random import randrange as r
 
 def generate_ip():

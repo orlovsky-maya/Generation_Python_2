@@ -20,6 +20,8 @@ result_dict = dict(zip(in_list, out_list))
 for key, value in result_dict.items():
     print(key, '-', value)
 
+
+#  reference solution
 from random import choice
 
 names, rel, tmp = {input() for _ in range(int(input()))}, {}, 0

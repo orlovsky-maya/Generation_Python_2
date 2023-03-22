@@ -14,7 +14,7 @@ for r in range(n):
         print(str(matrix[r][c]).ljust(3), end=' ')
     print()
 
-
+#  reference solution
 from random import sample
 
 numbers = sample(list(range(1, 76)), 25)

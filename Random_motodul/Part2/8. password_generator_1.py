@@ -21,7 +21,7 @@ for i in range(n):
 
 
 
-
+#  reference solution
 
 from string import *
 from random import sample

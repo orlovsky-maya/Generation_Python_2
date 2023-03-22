@@ -31,7 +31,7 @@ n, m = int(input()), int(input())
 generate_passwords(n, m)
 
 
-
+#  reference solution
 from string import ascii_uppercase, ascii_lowercase, digits
 from random import sample, shuffle
 letters_lower = [i for i in ascii_lowercase if i not in 'lo']
