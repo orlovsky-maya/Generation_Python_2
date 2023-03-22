@@ -8,6 +8,7 @@ for word in text:
     else:
         print(counter,  end=' ')
 
+#  reference solution
 s = input().split()
 d = {}
 for i in s:

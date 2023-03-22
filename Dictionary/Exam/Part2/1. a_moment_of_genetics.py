@@ -11,10 +11,11 @@ for c in dnk:
 print(pnk)
 
 
-
+#  reference solution
 d = {'ACGT'[i]: 'UGCA'[i] for i in range(4)}
 for i in input():
     print(d[i], end='')
 
+#  reference solution
 d = dict(zip('GCTA', 'CGAU'))
 print(*[d[i] for i in input()], sep = '')

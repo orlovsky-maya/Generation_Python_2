@@ -14,7 +14,7 @@ for c in word:
             break
 print(counter)
 
-
+#  reference solution
 d = {
     1: "AEILNORSTU",
     2: "DG",
