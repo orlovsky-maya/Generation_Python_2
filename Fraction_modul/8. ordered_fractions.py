@@ -12,6 +12,8 @@ while z > 1:
 
 print(*sorted(result), sep='\n')
 
+
+#  reference solution
 from fractions import Fraction
 
 numbers = set()

@@ -4,6 +4,6 @@ numbers = ['6.34', '4.08', '3.04', '7.49', '4.45', '5.39', '7.82', '2.76', '0.71
 for n in numbers:
     print(n, '=', Fraction(n))
 
-
+#  reference solution
 for num in numbers:
     print(f'{num} = {Fraction(num)}')

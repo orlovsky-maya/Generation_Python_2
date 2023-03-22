@@ -1,13 +1,15 @@
-# from fractions import Fraction as F
-# n = int(input())
-# result = 0
-# for i in range(1, n // 2 + 1):
-#     num = F(i, n - i)
-#     if sum(num.as_integer_ratio()) == n:
-#         if num > result:
-#             result = num
-# print(result)
+from fractions import Fraction as F
+n = int(input())
+result = 0
+for i in range(1, n // 2 + 1):
+    num = F(i, n - i)
+    if sum(num.as_integer_ratio()) == n:
+        if num > result:
+            result = num
+print(result)
 
+
+# Second solution
 from fractions import Fraction as F
 n = int(input())
 result = 0
@@ -18,7 +20,7 @@ for i in range(1, n // 2 + 1):
             result = num
 print(result)
 
-
+#  reference solution
 from fractions import Fraction as F
 from math import gcd
 
