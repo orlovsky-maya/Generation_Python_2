@@ -8,6 +8,7 @@ for i in range(n):
     else:
         print('Решка')
 
+#  reference solution
 from random import randint
 
 COIN = ['Орел', 'Решка']
@@ -15,6 +16,7 @@ COIN = ['Орел', 'Решка']
 for _ in range(int(input())):
     print(COIN[randint(0, 1)])
 
+#  reference solution
 import random
 
 for i in range(int(input())):
