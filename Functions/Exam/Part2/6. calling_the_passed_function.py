@@ -12,9 +12,14 @@ def add3(x, y, z):
 
 def call(fun, *args):
     return fun(*args)
-
-
-print(call(mul7, 10))
-print(call(add2, 2, 7))
-print(call(add3, 10, 30, 40))
-print(call(bool, 0))
+#
+# # input
+# print(call(mul7, 10))
+# print(call(add2, 2, 7))
+# print(call(add3, 10, 30, 40))
+# print(call(bool, 0))
+# # output
+# 70
+# 9
+# 80
+# False

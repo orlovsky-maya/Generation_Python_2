@@ -1,4 +1,3 @@
-
 n = int(input())
 mylist = [input() for word in range(n)]
 

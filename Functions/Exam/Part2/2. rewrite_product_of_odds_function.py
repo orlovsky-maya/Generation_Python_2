@@ -1,11 +1,12 @@
-# def product_of_odds(data):
-#     result = 1
-#     for i in data:
-#         if i % 2 == 1:
-#             result *= i
-#     return result
+# Rewrite the function
+def product_of_odds(data):
+    result = 1
+    for i in data:
+        if i % 2 == 1:
+            result *= i
+    return result
 
-
+# new function
 from functools import reduce
 
 
