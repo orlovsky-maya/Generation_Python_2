@@ -7,6 +7,7 @@ sorted_data = sorted(data, key=lambda point: point[1][-1], reverse=True)
 for i in range(len(sorted_data)):
     print(f'{sorted_data[i][1]}: {sorted_data[i][0]}')
 
+#  reference solution
 for pop, city in sorted(data, key=lambda x: x[1][-1], reverse=True):
     print(f'{city}: {pop}')
 

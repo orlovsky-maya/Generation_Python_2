@@ -8,7 +8,7 @@ filter_result = list(filter(lambda num: num % 2 == 0 or num < 47, numbers))
 map_result = list(map(lambda num: num // 2 if num % 2 == 0 else num, filter_result))
 print(*map_result)
 
-
-# filter_result = list(filter(lambda num: False if (num % 2 != 0 and num > 47) else True, numbers))
+#  reference solutions
+filter_result = list(filter(lambda num: False if (num % 2 != 0 and num > 47) else True, numbers))
 
 print(*map(lambda x: [x // 2, x][x % 2], filter(lambda x: x < 48 or not x % 2, numbers)))

@@ -7,4 +7,5 @@ len_sorted = sorted(alf_sorted, key=lambda word: len(word))
 
 print(*len_sorted)
 
+#  reference solution
 print(*sorted(data, key=lambda x: (len(x), x)))

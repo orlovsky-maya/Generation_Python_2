@@ -7,5 +7,5 @@ print(func('Abcd'))
 print(func('bcdA'))
 print(func('abcdA'))
 
-
+#  reference solution
 func = lambda x: x.lower().startswith('a') and x.lower().endswith('a')
