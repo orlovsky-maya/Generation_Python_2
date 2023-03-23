@@ -13,7 +13,7 @@ with open('file.txt') as file:
 
     print(f'Input file contains:\n{alfabet_result} letters\n{word_result} words\n{str_result} lines')
 
-
+#  reference solution
 with open('lines.txt') as f:
     txt = f.read()
     print('Input file contains:')

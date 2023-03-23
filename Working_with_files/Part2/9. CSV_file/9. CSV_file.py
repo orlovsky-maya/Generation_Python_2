@@ -9,6 +9,8 @@ def read_csv():
 
 print(read_csv())
 
+
+#  reference solution
 def read_csv():
     with open('data.csv') as file:
         keys = file.readline().strip().split(',')

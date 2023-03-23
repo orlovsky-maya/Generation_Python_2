@@ -8,7 +8,7 @@ with open('first_names.txt') as first_names, open('last_names.txt') as last_name
         first_names.seek(0)
         last_names.seek(0)
 
-
+#  reference solution
 import random as r
 
 with open('first_names.txt') as fn, open('last_names.txt') as ln:
