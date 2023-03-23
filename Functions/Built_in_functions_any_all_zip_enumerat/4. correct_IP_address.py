@@ -6,5 +6,5 @@ if len(number_ip_digit) == 4:
 else:
     print(False)
 
-
+#  reference solution
 print(all(map(lambda n: n.isdigit() and 0 <= int(n) <= 255, input().split('.'))))

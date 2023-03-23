@@ -16,9 +16,3 @@ if all(all_class):
 else:
     print('NO')
 
-
-
-# cl = [['Васечкин', '4'], ['Илюшин', '5']]
-# all_class.append(check_class(cl))
-# print(check_class(cl))
-# print(all_class)

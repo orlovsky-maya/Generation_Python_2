@@ -9,7 +9,7 @@ for num in diapazon:
         result_list.append(num)
 print(*result_list)
 
-
+#  reference solution
 def check(num):
     return all(map(lambda x: int(x) and num % int(x) == 0, str(num)))
 
