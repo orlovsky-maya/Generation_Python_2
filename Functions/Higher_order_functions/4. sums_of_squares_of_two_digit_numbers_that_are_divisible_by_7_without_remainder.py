@@ -36,8 +36,3 @@ def square(num):
 
 result_numbers = map(square, (filter(reminder_0, filter(two_digit, numbers))))
 print(sum(result_numbers))
-# digit = filter(two_digit, numbers)
-# rem = filter(reminder_0, digit)
-# sqr = map(square, rem)
-#
-# print(sum(sqr))
