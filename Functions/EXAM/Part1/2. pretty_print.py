@@ -1,4 +1,3 @@
-
 def pretty_print(data, side='-', delimiter='|'):
     s = f' {delimiter} '.join(map(str, data))
     lenght = len(s)
