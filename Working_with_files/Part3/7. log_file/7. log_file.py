@@ -8,7 +8,7 @@ with open('logfile.txt') as logfile, open('output.txt', 'w') as output:
             print(name, file=output)
 
 
-# Good solution from stepik
+#  reference solutions
 def get_diff_mins(time2, time1):
     t2 = list(map(int, time2.split(':')))
     t1 = list(map(int, time1.split(':')))

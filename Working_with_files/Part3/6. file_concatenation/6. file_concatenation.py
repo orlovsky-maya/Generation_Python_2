@@ -4,9 +4,9 @@ with open('output.txt', 'a') as output:
         file = open(name_file).read()
         output.write(file)
 
-#Good solution
+#  reference solution
 
-# with open('output.txt', 'w') as out:
-#     for i in range(int(input())):
-#         with open(input()) as f:
-#             out.write(f.read())
+with open('output.txt', 'w') as out:
+    for i in range(int(input())):
+        with open(input()) as f:
+            out.write(f.read())
