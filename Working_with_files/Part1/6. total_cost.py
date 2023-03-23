@@ -5,7 +5,7 @@ for line in file:
     result_summa += summa
 print(result_summa)
 
-
+#  reference solution
 file = open('prices.txt')
 lines = map(str.split, file)
 print(sum(map(lambda line: int(line[1]) * int(line[2]), lines)))
