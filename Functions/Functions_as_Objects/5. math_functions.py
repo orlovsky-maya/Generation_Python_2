@@ -26,7 +26,7 @@ n = int(input())
 com = input()
 print(commands[com](n))
 
-
+#  reference solution
 import math
 
 def pwr(p):
