@@ -4,14 +4,16 @@ def greet(name, *args):
     else:
         return f'Hello, {name} and {" and ".join(args)}!'
 
+# # input
+# print(greet('Timur'))
+# print(greet('Timur', 'Roman'))
+# print(greet('Timur', 'Roman', 'Ruslan'))
+# # output
+# Hello, Timur!
+# Hello, Timur and Roman!
+# Hello, Timur and Roman and Ruslan!
 
-print(greet('Timur'))
-print(greet('Timur', 'Roman'))
-print(greet('Timur', 'Roman', 'Ruslan'))
-
-
-
-
+#  reference solution
 def greet(name, *args):
     return f'Hello, {" and ".join((name,) + args)}!'
 
