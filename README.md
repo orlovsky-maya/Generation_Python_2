@@ -8,7 +8,7 @@ The course is the winner of the Stepik Awards 2021 in the category "Best free on
 
 <p align="center">
     <a href="https://stepik.org/course/68343/info">
-    <img src="https://github.com/orlovsky-maya/Generation_Python_2/blob/main/Images/Main.png" height="200" width="200" alt="Stepik">
+    <img src="https://github.com/orlovsky-maya/Generation_Python_2/blob/main/Images/Main.png" height="200" width="" alt="Stepik">
     </a>
 </p>
 
@@ -97,8 +97,8 @@ The unit circle equation is x^2 + y^2 = 1.
 The program displays the keystrokes on mobile feature phones of the keys needed for the entered message.
 
 <p align="center">
-    <img src="https://github.com/orlovsky-maya/Generation_Python_2/blob/main/Images/Typing%20messages.png" alt="Typing messages" height="200" width="200">
-    <img src="https://github.com/orlovsky-maya/Generation_Python_2/blob/main/Images/Typing%20messages1.png" alt="Typing messages1" height="200" width="200">
+    <img src="https://github.com/orlovsky-maya/Generation_Python_2/blob/main/Images/Typing%20messages.png" alt="Typing messages" height="300" width="200">
+    <img src="https://github.com/orlovsky-maya/Generation_Python_2/blob/main/Images/Typing%20messages1.png" alt="Typing messages1" height="300" width="200">
 
 </p>
 
