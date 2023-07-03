@@ -1,6 +1,6 @@
 # Generation_Python_2
 ## Synopsis:
-The repository contains my solutions of advanced course: Generation Python on Stepik educational platform.
+The repository contains my solutions for advanced course: Generation Python on Stepik educational platform.
 
 The course covers two-dimensional arrays, tuples, sets, dictionaries, and more.
 
